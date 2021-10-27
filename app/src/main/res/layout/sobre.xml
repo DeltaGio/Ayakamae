@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sobre"
+    android:background="@drawable/fundo_questoes">
+
+    <Button
+        android:id="@+id/sobre_sair"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#2196F3"
+        android:text="SAIR"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Este aplicativo é produto educacional de um Trabalho de Conclusão de Curso (TCC) da Licenciatura em Física do Instituto Federal de São Paulo - Câmpus Registro e foi orientado pela Professora Mestra Natalia Bortolaci e co-orientado pelo Professor Doutor Gregori de Arruda Moreira, ambos docentes do Instituto. O aplicativo nasceu a partir da preocupação de enriquecer o Ensino de Astronomia por meio da interação dos saberes tradicionais indígenas brasileiros e a tecnologia, com o propósito de atuar tanto na educação básica quanto na divulgação científica."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_height="290dp"
+                android:src="@drawable/sobre_1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="(Natalia)"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_height="290dp"
+                android:src="@drawable/sobre_2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="(Gregori)"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     O material foi elaborado, tendo como foco estudantes do primeiro ano do Ensino Médio com a finalidade de ser uma ferramenta que viabilize a introdução à Astronomia no âmbito do Ensino de Física buscando aproximar tópicos dos saberes indígenas brasileiros sobre alguns fenômenos da natureza em relação a padrões que se repetem no céu."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     As atividades presentes no aplicativo, embora destinadas ao público-alvo em questão, poderão enriquecer o aprendizado de todos os outros usuários, principalmente para aqueles que não tiveram um maior contato com este assunto até o momento."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     O aplicativo poderá ser usado concomitantemente ao desenvolvimento de aulas que buscam introduzir a Astronomia no Ensino Médio, ou em outro momento, lugar e por qualquer usuário, desde que contemple um conhecimento prévio sobre os assuntos básicos de Ciências Naturais - de acordo o currículo da ciência da natureza do Ensino Fundamental, como consta a Base Nacional Comum Curricular (BNCC) de 2021 -."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     O conteúdo do material é inspirado em diversos materiais e ferramentas acerca dos temas Astronomia, Ensino de Física e saber indígena. Alguns deles são referenciados no final das telas de explicações e outros estão presentes e argumentados na monografia de TCC “'Ayakamaé': Um aplicativo para o Ensino de Astronomia a partir de saberes indígenas brasileiros”."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Os textos das explicações das atividades são recortes das referências mencionadas no aplicativo, enquanto que as questões, dicas e os comentários foram construídos por mim a fim de possibilitar a compreensão dos assuntos abordados de maneira interativa. As artes do aplicativo e algumas imagens existentes nas atividades são produtos de um trabalho conjunto com Yasmin Cardoso."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_height="290dp"
+                android:src="@drawable/sobre_3"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="(Portfólio no Instagram: @yasmincardoso.arq)"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Acreditamos que com a ampliação das abordagens no ensino de Astronomia possiblita-se a articulação com outros campos do conhecimento e o resgate do elo entre nós e os povos originários do Brasil em relação às “coisas do Céu”. Ampliando as possibilidades de se formar, pelas diferentes ciências, cidadãos capazes de lidar com os desafios atuais da sociedade, proporcionando melhores condições à população para agir cada vez mais com um senso crítico sobre os assuntos científicos."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Dessa forma, ficarei muito grato pelas sugestões, críticas, comentários e relatos de “bugs” ou travamentos no sentido de melhorar a compreensão e a funcionalidade deste aplicativo, assim como dicas e ideias para uma futura implementação ou evolução do Ayakamaé. Suas contribuições serão importantes para a aprimoração desse material."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Fique à vontade para fazer contato e encaminhar as contribuições para o e-mail: barreto.giovani@yahoo.com, ou g.barreto@aluno.ifsp.edu.br. Sua avaliação do aplicativo na Play Store também irá ajudar! 😄 "
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:lineSpacingExtra="8sp"
+            android:text="     Aproveite bem o Ayakamaé!"
+            android:textAlignment="textStart"
+            android:textColor="#FFC107"
+            android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Giovani Barreto."
+                android:textAlignment="textEnd"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="20dp"
+                android:layout_height="290dp"
+                android:src="@drawable/sobre_4"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

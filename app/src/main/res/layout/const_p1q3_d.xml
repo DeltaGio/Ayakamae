@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConstP1q3DActivity"
+    android:background="@drawable/fundo_questoes">
+
+    <Button
+        android:id="@+id/c_sair_d_p1q3"
+        android:layout_width="42dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/transparence"
+        android:foreground="@drawable/atv_sair"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="15dp"
+        android:progress="29"
+        android:alpha="0.70"
+        android:progressDrawable="@drawable/progress_reto"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/c_sair_d_p1q3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Lamento, resposta errada"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c_sair_d_p1q3" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     A translação é o movimento que o planeta Terra realiza ao redor do Sol junto com os outros planetas. O tempo necessário para completar uma volta ao redor do Sol é de 365 dias, 5 horas e cerca de 48 minutos e ocorre numa velocidade média de 107.000 km por hora."
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:srcCompat="@drawable/const_d1_p1q3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     O movimento de translação é o responsável pelas quatro estações do ano: verão, outono, inverno e primavera, que ocorrem em razão das diferentes localizações da Terra no espaço. No entanto, o movimento não é o principal responsável para nos permitir ver as estrelas durante a noite."
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:srcCompat="@drawable/const_d2_p1q3" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/c_ok_d_p1q3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#4CAF50"
+        android:text="PROSSEGUIR"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

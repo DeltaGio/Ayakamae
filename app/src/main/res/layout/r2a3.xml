@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".R2a3"
+    android:background="@drawable/fundo_questoes">
+
+    <Button
+        android:id="@+id/sair_r2a3"
+        android:layout_width="42dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/transparence"
+        android:foreground="@drawable/atv_sair"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="Questão 2"
+        android:textAlignment="center"
+        android:textColor="#0193CD"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sair_r2a3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/sair_r2a3"
+        app:layout_constraintTop_toBottomOf="@+id/sair_r2a3"
+        app:layout_constraintTop_toTopOf="@+id/sair_r2a3"/>
+
+    <Button
+        android:id="@+id/ok_r2a3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#4CAF50"
+        android:text="CONFIRMAR"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="65dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/archivo_black"
+                android:text="Assim que uma constelação do ciclo principal se põe no início da noite, para os Tukano, pode significar:"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                tools:ignore="MissingConstraints">
+
+                <RadioButton
+                    android:id="@+id/a_r2a3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:buttonTint="#FFFFFF"
+                    android:checked="false"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Apenas a duração dos “dias de inverno”, o que os possibilitam de saber o quão cheio estará o rio amazônico, já que dependem exclusivamente da pesca."
+                    android:textAlignment="textStart"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/b_r2a3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:buttonTint="#FFFFFF"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Que os “dias de inverno” ou os “dias de verão” estão por vir, dependendo em que localização cardeal uma constelação de referência se põe (ao noroeste refere-se aos dias de verão e ao sudoeste, os dias de inverno)."
+                    android:textAlignment="viewStart"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/c_r2a3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:buttonTint="#FFFFFF"
+                    android:checked="false"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Apenas a duração dos “dias de verão”, o que os possibilita saber a melhor época de plantio e colheita, já que dependem exclusivamente da agricultura."
+                    android:textAlignment="textStart"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/d_r2a3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:buttonTint="#FFFFFF"
+                    android:checked="false"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Que os “dias de inverno” ou os “dias de verão” estão por vir, de acordo com a constelação de referência."
+                    android:textAlignment="textStart"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

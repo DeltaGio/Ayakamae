@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".R3a2"
+    android:background="@drawable/fundo_questoes">
+
+    <Button
+        android:id="@+id/sair_r3a2"
+        android:layout_width="42dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/transparence"
+        android:foreground="@drawable/atv_sair"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="Questão 3"
+        android:textAlignment="center"
+        android:textColor="#0193CD"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sair_r3a2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.40"
+        app:layout_constraintStart_toEndOf="@+id/sair_r3a2"
+        app:layout_constraintTop_toTopOf="@+id/sair_r3a2" />
+
+    <Button
+        android:id="@+id/ok_r3a2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#4CAF50"
+        android:text="CONFIRMAR"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="65dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_black"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="Qual é a razão principal da existência das estações do ano?"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+            <RadioButton
+                android:id="@+id/a_r3a2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:fontFamily="@font/archivo_black"
+                android:text="A inclinação do eixo de rotação da Terra."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/b_r3a2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:buttonTint="#FFFFFF"
+                android:fontFamily="@font/archivo_black"
+                android:text="A distância entre a Terra e o Sol."
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/c_r3a2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFFFFF"
+                android:checked="false"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/archivo_black"
+                android:text="A velocidade de rotação da Terra."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/d_r3a2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFFFFF"
+                android:checked="false"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/archivo_black"
+                android:text="A distância entre a Terra e a Lua."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

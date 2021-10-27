@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Instru4"
+    android:background="@drawable/fundo_questoes">
+
+    <Button
+        android:id="@+id/sair_instr4"
+        android:layout_width="42dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/transparence"
+        android:foreground="@drawable/atv_sair"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="Atividades"
+        android:textAlignment="center"
+        android:textColor="#0193CD"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sair_instr4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/sair_instr4"
+        app:layout_constraintTop_toTopOf="@+id/sair_instr4" />
+
+    <Button
+        android:id="@+id/ok_instr4"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#4CAF50"
+        android:text="-->"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/back_instr4"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#0193CD"
+        android:text="Voltar"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Em cada módulo, as atividades estão divididas em partes, para que não haja a mistura de assuntos específicos. Essas partes contém de 1 a 3 questões, uma explicação geral sobre o assunto específico, uma dica por questão e um comentário por alternativa."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Fique atento! Cada parte inicia-se com uma tela de introdução te perguntando se você sabe algo sobre o assunto específico."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="420dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/instru4_1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Vale destacar que se algum povo venha a ser mencionado, ele será apresentado numa tela que antecede a introdução da parte."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/instru4_2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Caso responda não à pergunta introdutória, você terá a oportunidade de olhar uma explicação mais detalhada sobre o assunto específico. Logo após você irá para as questões."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/instru4_3" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Vale lembrar que geralmente as explicações são mais longas. Portanto, você deve arrastar o campo de explicação para dispor de todo o texto."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Do contrário, se responder que sim na introdução, será encaminhado diretamente para as questões."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/instru4_4" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Para responder uma questão, basta apenas apertar em cima de uma das alternativas do qual você acha que está correto e depois apertar em confirmar."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Dicas: caso a pergunta e as alternativas não sejam completamente exibidas na tela do seu celular, arraste essas regiões para cima!"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Lembre-se também que só há uma alternativa correta por questão. 😅"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text='     Enquanto o botão confirmar não for apertado, há a oportunidade de trocar de alternativa ou até consultar uma dica para a questão através do botão "?"'
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/instru4_5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Após apertar o botão confirmar na tela em que está a questão, você receberá um comentário para sua resposta."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Após apertar o botão confirmar na tela em que está a questão, você receberá um comentário para sua resposta."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/instru4_6" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Caso a resposta esteja errada, a tela conterá uma confirmação do seu erro e uma explicação do porquê estar errado."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/instru4_7" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text='     Note que em todas as telas sempre haverá um botão de sair: "x". Esse botão te permite voltar para a tela inicial.'
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text='     Caso aperte o botão voltar de seu celular, o resultado será o mesmo. Infelizmente, há poucas oportunidades para você retornar numa questão já respondida. Essas possibilidades estão nos botões "voltar" que aparecerão em alguns dos retornos para sua resposta - em alguns casos, o botão está escondido -.'
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

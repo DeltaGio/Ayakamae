@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SolP1eActivity"
+    android:background="@drawable/fundo_questoes">
+
+    <Button
+        android:id="@+id/s_sair_p1e"
+        android:layout_width="42dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/transparence"
+        android:foreground="@drawable/atv_sair"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="15dp"
+        android:progress="9"
+        android:alpha="0.70"
+        android:progressDrawable="@drawable/progress_reto"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/s_sair_p1e"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="Explicação da parte 1"
+        android:textAlignment="center"
+        android:textColor="#0193CD"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/s_sair_p1e" />
+
+    <Button
+        android:id="@+id/s_ok_p1e"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#4CAF50"
+        android:text="PROSSEGUIR"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/archivo_black"
+                android:text="Observatório solar indígena"
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     A observação do céu pelos indígenas brasileiros não se restringe apenas à contemplação das constelações, pelo contrário, eles também associam os movimentos aparentes do Sol para determinar: o meio dia solar, os pontos cardeais e as estações do ano utilizando o gnômon, que consiste de uma haste cravada verticalmente no solo, da qual se observa a sombra projetada pelo Sol, sobre o terreno horizontal."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:srcCompat="@drawable/s_1_p1e" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:text="     Um tipo de gnômon indígena, encontrado em diversos sítios arqueológicos situados no Brasil, é constituído de uma rocha, pouco trabalhada artificialmente, com cerca de 1,50 metros de altura, aproximadamente em forma de tronco de pirâmide e talhada para os quatros pontos cardeais. Ele aponta verticalmente para o ponto mais alto do céu (chamado zênite), sendo que as suas faces maiores ficam voltadas para a linha norte-sul e as menores para leste-oeste."
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="370dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:srcCompat="@drawable/s_2_p1e" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:text="     Em volta do gnômon indígena há rochas menores chamadas de seixos que formam uma circunferência e três linhas orientadas para as direções dos pontos cardeais e do nascer e pôr do sol nos dias de início de cada estação do ano (solstício e equinócio). Esse monumento de rochas, constituído pelo gnômon e pelos seixos, é chamado de observatório solar indígena, devido à sua relação direta com os movimentos aparentes do Sol."
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:text="     Somente nos dias do início da primavera e do outono, o Sol nasce exatamente no ponto cardeal leste e se põe exatamente no ponto cardeal oeste. Para um observador no Hemisfério Sul, em relação à linha leste-oeste, o nascer e o pôr-do-Sol ocorrem um pouco mais para o norte no inverno e um pouco mais para o sul no verão."
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:text="     Não há como saber ainda, ao certo, se a prática da montagem de observatórios solares indígenas era amplamente disseminada entre os indígenas que ocupam o território brasileiro ou mesmo a América do Sul no passado."
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/archivo_black"
+                android:text="Curiosidade"
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:text="     O gnômon permitiu que os indígenas observassem também que a sombra ao meio-dia era a mais longa de todas quando os dias e noites eram os mais frios do ano. E que a sombra do meio-dia era a menor de todas no período de maior calor no ano."
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:text="     Eles definiram, então, que o início do inverno ocorria quando a sombra ao meio-dia era a mais longa e o início do verão ocorria quando essa sombra era a menor."
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/s_3_p1e" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:text="     Essa observação dada pelo gnômon ajuda a corrigir um erro muito comum sobre o inverno e o verão. Muitas pessoas acreditam que “é inverno quando a Terra se encontra no ponto mais distante do Sol, pois quanto mais distante, mais frio estará nosso planeta; e de maneira contrária, quanto mais próxima à Terra do Sol, mais quente seria nosso planeta, o que explicaria o verão”."
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:text="     O estudo das sombras do gnômon mostra que no inverno a sombra da haste ao meio-dia é maior que a sombra do meio-dia no verão. Isso porque o Sol aparece mais baixo no horizonte. Já no verão o Sol passa pelo zênite, ou seja, o ponto mais alto do céu."
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:text="     Assim, as estações do ano estão relacionadas com a altura do movimento aparente do Sol e não com a distância entre a Terra e o Sol!"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Texto e Imagens"
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:text='"Caderno de Orientações para o Professor de Física: Astronomia indígena brasileira" [ARAÚJO, 2014]'
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:text='"Mitos e Estações no Céu Tupi-Guarani" [AFONSO, 2006]'
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:text='"O céu dos Índios Tembé" [CORRÊA; MAGALHÃES; MASCARENHAS, 1999]'
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:text='“O gnômon e os movimentos da Terra” [Khan Academy, s.d.]'
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

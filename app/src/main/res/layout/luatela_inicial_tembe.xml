@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_questoes">
+
+    <Button
+        android:id="@+id/lua_btsair_ini_tembe"
+        android:layout_width="42dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/transparence"
+        android:foreground="@drawable/atv_sair"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="Antes de começar...."
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lua_btsair_ini_tembe" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="15dp"
+        android:progress="0"
+        android:alpha="0.70"
+        android:progressDrawable="@drawable/progress_reto"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lua_btsair_ini_tembe"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/archivo_black"
+                android:text="Quem são os Tembé?"
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewx18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Os indígenas Tembé-Tenetahara moram na região Norte do Brasil. Suas aldeias ficam nas terras que chamamos de Alto Rio Gurupi, na fronteira entre os estados do Pará e do Maranhão. Quando algum dia você for até lá, poderá procurar uma aldeia chamada Tekohaw, uma das várias espalhadas nas terras dos Tembé."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewx19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Os Tembé hoje vivem em três regiões. A primeira está localizada à margem direita do Rio Guamá. Outra está no vale do Rio Gurupi, no Maranhão, na Área Indígena Alto Turiaçu. A terceira é a Área Indígena Tembé, que está na região do Rio Acará-Miri. Segundo a Funai (2019), os Tembé da Aldeia Tekohaw são hoje cerca de 450 indígenas."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/lua_inicio_tembe1" />
+
+            <TextView
+                android:id="@+id/textViewx20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Aprender como os indígenas Tembé-Tenetehara vêem o céu pode se tornar uma grande viagem. Essa aprendizagem pode ser como chegar novamente à Lua, achar novas estrelas e constelações ou mesmo descobrir um novo planeta com vida."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewx21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Mas bem, aperte o botão prosseguir e venha aprender um pouco e testar seu conhecimento! 😉 "
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewx22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Texto e Imagens"
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewx23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:text='"O céu dos Índios Tembé" [CORRÊA; MAGALHÃES; MASCARENHAS, 1999]'
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:text='“Tembé-Tenetehara” [FUNAI, 2019]'
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/lua_btok_ini_tembe"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#4CAF50"
+        android:text="PROSSEGUIR"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

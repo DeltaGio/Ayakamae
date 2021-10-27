@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Instru3"
+    android:background="@drawable/fundo_questoes">
+
+    <Button
+        android:id="@+id/sair_instr3"
+        android:layout_width="42dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/transparence"
+        android:foreground="@drawable/atv_sair"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="Campo dos módulos"
+        android:textAlignment="center"
+        android:textColor="#0193CD"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sair_instr3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/sair_instr3"
+        app:layout_constraintTop_toTopOf="@+id/sair_instr3" />
+
+    <Button
+        android:id="@+id/ok_instr3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#4CAF50"
+        android:text="-->"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/back_instr3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#0193CD"
+        android:text="Voltar"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Esta é a região principal do aplicativo, é onde você acessa as atividades presentes no Ayakamaé por meio dos “módulos”."
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="650dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/instru3_1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="(Arraste a tela principal para cima para visualizar todo os módulos)"
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:text="     Esses módulos são responsáveis por separar as atividades de acordo com os assuntos em comum. Nesses módulos, há atividades sobre como os povos relacionam a Lua, o Sol ou suas constelações próprias com fenômenos e aspectos de seu cotidiano, assim como de suas explicações científicas para os respectivos eventos."
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/archivo_black"
+                android:text="Curiosidade"
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:text="     O fundo é repleto de algumas constelações presentes na cultura Tupi-Guarani e Tukano."
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/instru3_2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:text="     Elas não estão exatamente do tamanho proporcional que as constelações originais, porém os seus traços estão de acordo com o que está representado no programa e aplicativo Stellarium."
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:text="     Uma outra dica para ter melhor aproveitamento do Ayakamaé é utilizar o programa ou aplicativo (de sua preferência) Stellarium, que é uma ferramenta de observação do céu noturno do qual contempla as constelações das diversas culturas."
+                android:textColor="#FFC107"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

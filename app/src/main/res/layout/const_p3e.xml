@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConstP3eActivity"
+    android:background="@drawable/fundo_questoes">
+
+    <Button
+        android:id="@+id/c_sair_p3e"
+        android:layout_width="42dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/transparence"
+        android:foreground="@drawable/atv_sair"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="15dp"
+        android:progress="72"
+        android:alpha="0.70"
+        android:progressDrawable="@drawable/progress_reto"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/c_sair_p3e"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="Explicação da parte 3"
+        android:textAlignment="center"
+        android:textColor="#0193CD"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c_sair_p3e" />
+
+    <Button
+        android:id="@+id/c_ok_p3e"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#4CAF50"
+        android:text="PROSSEGUIR"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:text="     As constelações são usadas durante todo o ano. Algumas têm finalidades religiosas, outras são mais por curiosidade, mas elas servem, principalmente, como calendário agrícola. As flutuações sazonais indicadas pelas constelações influenciam no período da pesca, caça, plantio e colheita. Cada imagem formada no céu permitia aos índios identificar que uma nova estação do ano estava por vir."
+                android:textSize="16sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                app:srcCompat="@drawable/c_1_p3e" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:text='(Representações das principais constelações dos povos Tukano, Tuyukas e Dessanos)'
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:text="     Algumas partes dessas constelações como cabeças, corpos e rabos de representações de animais, marcam situações meteorológicas razoavelmente bem definidas entre verões (períodos secos) e invernos (períodos de chuva). Para os Tukano, os verões correspondem a grandes ou pequenos estios. Invernos, às chuvas, com durações de uma semana até uma hora."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:text="     As constelações principais, que fazem parte das representações dos Tukano, obedecem a sequência chamada de ciclo principal de constelações ou simplesmente ciclo principal. Suas representações estão associadas a uma variedade significativa de fenômenos que ocorrem coincidentemente na natureza ou são culturalmente associados a elas. Uma curiosidade é que para os Tukano, as constelações são também seres perigosos e venenosos, por isso não encostam uns nos outros e guardam certa distância entre si no espaço."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:text="     Iremos mencionar algumas constelações dos Tukano 👇"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/archivo_black"
+                android:text="Yai (Onça) 🐆"
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/c_onca1_tuk" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:text="     Yai é o nome na língua tukano para a constelação da onça, que fica na região do céu onde encontramos, na nossa tradição Ocidental, as constelações de Cassiopéia, Andrômeda e Perseus."
+                android:textSize="16sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/c_onca2_tuk" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:text='(Dica: use o aplicativo Stellarium para encontrar as constelações com mais facilidade)'
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:text="     A constelação da Yai indica o primeiro e maior período de chuva e enchentes do ciclo anual. Nas grandes enchentes, sobrevivem, nesses períodos, as cutias, pacas, tatus e outros. Concentração das piracemas e as rãs começam a cantar. Consequentemente, há aparecimento de cobras."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:text="     Esse período é marcado pela duração da visibilidade da constelação logo após o pôr-do-Sol (ao Noroeste). O bigode da Yai encosta no horizonte noroeste durante o início de março (de acordo com a localização dos Tukano), seguida da cabeça do felino que desaparece em meados de março. O corpo da Yai leva todo o resto do mês de março até meados de abril para desaparecer. E o rabo, desaparece até o final de abril."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:text="     Sim. A estação chuvosa, nas regiões que os Tukano se encontram, demora todo esse período! 😬"
+                android:textSize="16sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/c_onca3_tuk" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_height="220dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/c_onca4_tuk" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:text="     Coincidência, não?"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/archivo_black"
+                android:text="Aña (Jararaca) 🐍"
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="370dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/c_jar1_tuk" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:text="     Aña, é o nome na língua tukano para a constelação da Jararaca, que fica na região do céu onde encontramos as constelações de Escorpião e Sagitário."
+                android:textSize="16sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="370dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/c_jar2_tuk" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:text='(Dica: use o aplicativo Stellarium para encontrar as constelações com mais facilidade)'
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:text="     A cabeça da constelação se põe junto ao pôr-do-Sol (entre sudoeste e oeste) durante os meses de outubro e novembro (eventualmente diz-se que ela também chega a dezembro) e está associada a enchentes desse período. As chuvas podem não acontecer no lugar onde os indígenas estejam, mas o nível do rio amazônico sobe em torno de 10-12 metros. 💦🌫"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:text="     Vejam que a quantidade de água é devido a Amazônia ser uma planície. Quando o nível do rio sobe, os peixes somem, o alimento some, os bichos que comem os peixes somem, somem a caça, todavia sobram os insetos. Então, os indígenas comem os insetos. 🦗"
+                android:textSize="16sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/c_jar3_tuk" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_height="220dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/c_jar4_tuk" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/archivo_black"
+                android:text="Pamõ (Tatu)"
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/c_tatu1_tuk" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:text="     Pamõ é o nome na língua tukano para a constelação do Tatu, que por sinal é uma das menores constelações dos Tukano e difícil de ser compreendida ilustradamente. Essa constelação fica localizada na região do céu onde encontramos a constelação do Golfinho, de acordo com nossa referência tradicional: a Ocidental."
+                android:textSize="16sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/c_tatu2_tuk" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:text='(Dica: use o aplicativo Stellarium para encontrar as constelações com mais facilidade)'
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:text="     A constelação do Tatu segue a Jararaca. Entre o desaparecimento do rabo da Anã (Jararaca), durante o pôr-do-Sol, e a aproximação do Pam, os dias variam entre períodos bastante ensolarados e tempestades de chuvas fortes acompanhado de raios intensos. ⛈"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:text="     Esse é o verão mais prolongado para os Tukano, onde é bastante marcado por um período de forte seca impedindo a navegação nos rios onde há pedras e corredeiras. É a principal ocasião para queima de áreas de mata preparadas para cultivo: as roças de mata virgem."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:text="     O fenômeno ocorre de meados de dezembro até meados (ou fim) de janeiro. Em que é marcado pelo desaparecimento do Pamõ ao pôr-do-Sol (ao noroeste). 📅"
+                android:textSize="16sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/c_tatu3_tuk" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_height="220dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/c_tatu4_tuk" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/archivo_black"
+                android:text="Yhé (Garça) "
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/c_gar1_tuk" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:text="     Por volta de meados de agosto que, logo ao pôr-do-Sol, se observa a constelação de Yhé, a garça, se pondo ao oeste. Yhé é o nome, em tukano, dado à constelação da Garça, que fica na região do céu onde encontramos a constelação da Cabeleira de Berenice."
+                android:textSize="16sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/c_gar2_tuk" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:text='(Dica: use o aplicativo Stellarium para encontrar as constelações com mais facilidade)'
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:text="     Essa constelação marca um período de forte estio e consequentemente dificuldade de obtenção de peixes. Com a baixa dos rios os peixes ficam escassos. É isso que a constelação Yhé vem anunciar. Coincidentemente os pássaros inhambus, andorinhas e as garças voam na mata em direção do sul para o norte."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:text="     Juntamente com ela, começa a se pôr, a noroeste, a constelação de Sipé Phairó, ou a jararaca de ânus grande. Ela também justifica a diminuição de peixes nesse período, para os Tukano já que, segundo eles, os peixes entram pelo ânus da jararaca e por isso mesmo desaparecem dos rios. O desaparecimento de ambas constelações ocorre até o fim da primeira quinzena de setembro, o que marca o fim de um ciclo anual e dá-se início a outro."
+                android:textSize="16sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/c_gar3_tuk" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_height="220dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/c_gar4_tuk" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Texto e Imagens"
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:text='Etnoastronomia: Calendário de Constelações na visão do grupo Tukano Sararo Yupuri Bubera Porã [BARRETO; SOUZA, 2017]'
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:text='O Céu dos Tukano na escola Yupuri: Construindo um calendário dinâmico [CARDOSO, 2007]'
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:text='Stellarium Astronomy Software'
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

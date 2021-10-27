@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".R4a1"
+    android:background="@drawable/fundo_questoes">
+
+    <Button
+        android:id="@+id/sair_r4a1"
+        android:layout_width="42dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/transparence"
+        android:foreground="@drawable/atv_sair"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="Questão 4"
+        android:textAlignment="center"
+        android:textColor="#0193CD"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sair_r4a1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.40"
+        app:layout_constraintStart_toEndOf="@+id/sair_r4a1"
+        app:layout_constraintTop_toTopOf="@+id/sair_r4a1" />
+    <Button
+        android:id="@+id/ok_r4a1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#4CAF50"
+        android:text="CONFIRMAR"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="65dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/archivo_black"
+                android:text="Indique a proposição INCORRETA sobre as estações do ano:"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                tools:ignore="MissingConstraints">
+
+                <RadioButton
+                    android:id="@+id/a_r4a1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:buttonTint="#FFFFFF"
+                    android:checked="false"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Enquanto no Hemisfério Norte é verão, no Hemisfério Sul é inverno."
+                    android:textAlignment="textStart"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/b_r4a1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:buttonTint="#FFFFFF"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="O movimento da Terra que possibilita a existência das estações do ano é o movimento de translação."
+                    android:textAlignment="viewStart"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/c_r4a1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:buttonTint="#FFFFFF"
+                    android:checked="false"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Enquanto no Hemisfério Norte é primavera, no Hemisfério Sul é outono."
+                    android:textAlignment="textStart"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+                <RadioButton
+                    android:id="@+id/d_r4a1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:buttonTint="#FFFFFF"
+                    android:checked="false"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="O solstício marca o início da primavera e do outono, já o equinócio marca o início do verão e do inverno."
+                    android:textAlignment="textStart"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

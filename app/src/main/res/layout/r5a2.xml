@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".R5a2"
+    android:background="@drawable/fundo_questoes">
+
+    <Button
+        android:id="@+id/sair_r5a2"
+        android:layout_width="42dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/transparence"
+        android:foreground="@drawable/atv_sair"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="Questão 5"
+        android:textAlignment="center"
+        android:textColor="#0193CD"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sair_r5a2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toEndOf="@+id/sair_r5a2"
+        app:layout_constraintTop_toTopOf="@+id/sair_r5a2" />
+
+    <Button
+        android:id="@+id/ok_r5a2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#4CAF50"
+        android:text="CONFIRMAR"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="65dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_black"
+                android:text="Complete o texto:"
+                android:textAlignment="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:text='“Devido à ............. do eixo de rotação, a incidência da radiação solar na superfície da Terra varia ao longo do ano, produzindo as estações do ano. A Terra possui dois tipos de movimentos: translação e rotação. ............. é o movimento pelo qual a Terra gira do oeste para o leste ao redor de seu próprio eixo, determinando assim, o dia e a noite. ............., movimento elíptico pelo qual a Terra percorre ao redor do Sol, pode ser verificado pelas constelações visíveis e pelo movimento aparente do Sol durante o ano”.'/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:text='Texto: “As constelações e as estações do ano” [TURMINA; JUNIOR; CATELLI, s.d.]'
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                tools:ignore="MissingConstraints">
+
+                <RadioButton
+                    android:id="@+id/a_r5a2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#FFFFFF"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Inclinação/ Translação/ Rotação."
+                    android:textAlignment="textStart"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/b_r5a2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:buttonTint="#FFFFFF"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Distância/ Rotação/ Translação."
+                    android:textAlignment="viewStart"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/c_r5a2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#FFFFFF"
+                    android:checked="false"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Inclinação/ Rotação/ Translação."
+                    android:textAlignment="textStart"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/d_r5a2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#FFFFFF"
+                    android:checked="false"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Distância/ Translação/ Rotação."
+                    android:textAlignment="textStart"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

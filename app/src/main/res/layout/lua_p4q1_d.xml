@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LuaP4q1D"
+    android:background="@drawable/fundo_questoes">
+
+    <Button
+        android:id="@+id/l_sair_d_p4q1"
+        android:layout_width="42dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/transparence"
+        android:foreground="@drawable/atv_sair"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="15dp"
+        android:progress="88"
+        android:alpha="0.70"
+        android:progressDrawable="@drawable/progress_reto"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/l_sair_d_p4q1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Ah, que pena que errou"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l_sair_d_p4q1" />
+
+    <Button
+        android:id="@+id/l_ok_d_p4q1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#4CAF50"
+        android:text="PROSSEGUIR"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Plutão é um planeta anão tão distante da Terra que seria impossível de sentir sua atração gravitacional daqui."
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:background="@drawable/l_d1_p4q1"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:background="@drawable/l_d2_p4q1"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:background="@drawable/l_d3_p4q1"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:background="@drawable/l_d4_p4q1"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:background="@drawable/l_d5_p4q1"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:background="@drawable/l_d6_p4q1"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:background="@drawable/l_d7_p4q1"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:background="@drawable/l_d8_p4q1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Olha só, pensei que não viria até aqui!"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="     Por essa ousadia vou te dar outra chance."
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/l_back_d_p4q1"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#008EFF"
+                android:text="Voltar"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

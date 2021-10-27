@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.deltagio.ayakamae">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_ayakamae"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_ayakamae_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ayakamaé">
+        <activity
+            android:name="com.deltagio.ayakamae.Surpresa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.Sobre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.Instru5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.Instru4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.Instru3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.Instru2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.Instru1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.Molde"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.R1a4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.R1a3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.R1a2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.R1a1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.R2a4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.R2a3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.R2a2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.R2a1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.R3a4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.R3a3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.R3a2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.R3a1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.R4a4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.R4a3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.R4a2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.R4a1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.R5a4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.R5a3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.R5a2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.R5a1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.RFinalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP4q2C"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP4q2B"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP4q2A"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP4q2Dica"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP4q2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP4q1D"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP4q1C"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP4q1B"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP4q1A"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP4q1Dica"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP4q1Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP4eActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP4aActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP3q1D"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP3q1C"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP3q1B"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP3q1A"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP3q1Dica"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP3q1Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP3eActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP3aActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaTupinActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP2q3C"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP2q3D"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP2q3B"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP2q3A"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP2q3Dica"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP2q3Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP2q2C"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP2q2B"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP2q2A"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP2q2Dica"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP2q2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP1q2D"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP1q2C"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP1q2B"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP1q2A"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP1q2Dica"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP1q2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolFinalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP2q2D"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP2q2C"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP2q2B"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP2q2A"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP2q2Dica"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP2q2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP2q1D"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP2q1C"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP2q1B"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP2q1A"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP2q1Dica"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP2q1Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP2eActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP2aActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP1q2C"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP1q2B"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP1q2A"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP1q2Dica"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP1q2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP1q1D"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP1q1C"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP1q1B"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP1q1A"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP1q1Dica"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP1q1Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP1eActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.SolP1aActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstFinalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP3q3D"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP3q3C"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP3q3B"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP3q3A"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP3q3Dica"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP3q3Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP3q2D"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP3q2C"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP3q2B"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP3q2A"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP3q2Dica"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP3q2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP3q1D"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP3q1C"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP3q1B"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP3q1A"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP3q1Dica"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP3q1Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP3eActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP3aActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstTukaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP2q2C"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP2q2B"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP2q2A"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP2q2Dica"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP2q2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP2q1C"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP2q1B"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP2q1A"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP2q1Dica"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP2q1Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP2eActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP2aActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstGuarActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP1q3DActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP1q3CActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP1q3BActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP1q3AActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP1q3DicaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP1q3Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP1q2DActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP1q2CActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP1q2BActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP1q2AActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP1q2DicaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP1q2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP1q1DActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP1q1CActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP1q1BActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP1q1AActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP1q1DicaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP1q1Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP1eActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.ConstP1aActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP2q1RcActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP2q1RbActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaFinalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP2q1RaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP2q1DicaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP2q1Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP2eActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP1q1RdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP1q1RcActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP2aActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP1q1RbActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP1q1RaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP1q1DicaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP1q1Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP1eActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaP1aActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.LuaTembeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.deltagio.ayakamae.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:theme="@style/Theme.Ayakamaé.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
