@@ -10,8 +10,8 @@ android {
         applicationId "com.deltagio.ayakamae"
         minSdkVersion 20
         targetSdkVersion 31
-        versionCode 1009
-        versionName "1.009"
+        versionCode 1041
+        versionName "1.041"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

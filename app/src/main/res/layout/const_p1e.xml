@@ -9,14 +9,15 @@
 
     <Button
         android:id="@+id/c_btsair_p1e"
-        android:layout_width="42dp"
-        android:layout_height="43dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/transparence"
         android:foreground="@drawable/atv_sair"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -131,7 +132,7 @@
                 android:textAlignment="textStart"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp"
-                android:text="     Assim, os nomes das constelações eram frequentemente relacionados também a várias atividades que dependiam da observação dos ciclos da natureza. Da participação das estrelas na pesca, navegação, colheita, caça, e outras ocupações do dia-a-dia, surgiram constelações como Bússola, Compasso, Vela, Touro, e por aí afora na cultura Ocidental (que tomamos como referência)."/>
+                android:text="     Assim, os nomes das constelações eram frequentemente relacionados também a várias atividades que dependiam da observação dos ciclos da natureza. Da participação das estrelas na pesca, navegação, colheita, caça, entre outras ocupações do dia-a-dia, surgiram constelações como Bússola, Compasso, Vela, Touro, e por aí afora na cultura Ocidental (que tomamos como referência)."/>
 
             <ImageView
                 android:layout_width="match_parent"

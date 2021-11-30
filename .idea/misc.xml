@@ -4,9 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Giovani/AndroidStudioProjects/Ayakamae/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Giovani/AndroidStudioProjects/Ayakamae/app/src/main/res/layout/const_p1e.xml" value="0.162109375" />
         <entry key="..\:/Users/Giovani/AndroidStudioProjects/Ayakamae/app/src/main/res/layout/const_p2e.xml" value="0.162109375" />
         <entry key="..\:/Users/Giovani/AndroidStudioProjects/Ayakamae/app/src/main/res/layout/const_p3q1_d.xml" value="0.162109375" />
+        <entry key="..\:/Users/Giovani/AndroidStudioProjects/Ayakamae/app/src/main/res/layout/instru2.xml" value="0.162109375" />
         <entry key="..\:/Users/Giovani/AndroidStudioProjects/Ayakamae/app/src/main/res/layout/lua_p3e.xml" value="0.162109375" />
+        <entry key="..\:/Users/Giovani/AndroidStudioProjects/Ayakamae/app/src/main/res/layout/luatela_p1e.xml" value="0.162109375" />
+        <entry key="..\:/Users/Giovani/AndroidStudioProjects/Ayakamae/app/src/main/res/layout/luatela_p1q1ra.xml" value="0.162109375" />
+        <entry key="..\:/Users/Giovani/AndroidStudioProjects/Ayakamae/app/src/main/res/layout/luatela_p2e.xml" value="0.162109375" />
+        <entry key="..\:/Users/Giovani/AndroidStudioProjects/Ayakamae/app/src/main/res/layout/r4a1.xml" value="0.162109375" />
       </map>
     </option>
   </component>

@@ -2,9 +2,11 @@ package com.deltagio.ayakamae;
 
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -20,8 +22,6 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.deltagio.ayakamae.databinding.ActivityMainBinding;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -210,6 +210,17 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 dialogo.setMessage("Olhe no menu! Há uma surpresa para você \uD83D\uDE0F");
                 dialogo.setNegativeButton("OK", null);
 
+                dialogo.setCancelable(false);
+                dialogo.setOnKeyListener(new DialogInterface.OnKeyListener() {
+                    @Override
+                    public boolean onKey(DialogInterface arg0, int keyCode, KeyEvent event) {
+                        if (keyCode == KeyEvent.KEYCODE_BACK && event.getAction() == KeyEvent.ACTION_UP) {
+                            return true;
+                        }
+                        return false;
+                    }
+                });
+
                 ms_surp=1;
                 SaveSurp();
                 dialogo.show();
@@ -224,6 +235,17 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 dialogo.setMessage("Agora você pode optar por revisar as perguntas caso queira! Há um botão na barra superior \uD83D\uDE43");
                 dialogo.setNegativeButton("OK", null);
 
+                dialogo.setCancelable(false);
+                dialogo.setOnKeyListener(new DialogInterface.OnKeyListener() {
+                    @Override
+                    public boolean onKey(DialogInterface arg0, int keyCode, KeyEvent event) {
+                        if (keyCode == KeyEvent.KEYCODE_BACK && event.getAction() == KeyEvent.ACTION_UP) {
+                            return true;
+                        }
+                        return false;
+                    }
+                });
+
                 ms_rev=1;
                 SaveMesRev();
                 dialogo.show();
@@ -236,6 +258,17 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             dialogo.setTitle("Olá, seja bem-vindo ao Ayakamaé!!!\uD83D\uDE0A");
             dialogo.setMessage("Nesse aplicativo você fará algumas atividades sobre Astronomia indígena brasileira. Mas antes de começar, olhe as instruções no menu!");
             dialogo.setNegativeButton("OK", null);
+
+            dialogo.setCancelable(false);
+            dialogo.setOnKeyListener(new DialogInterface.OnKeyListener() {
+                @Override
+                public boolean onKey(DialogInterface arg0, int keyCode, KeyEvent event) {
+                    if (keyCode == KeyEvent.KEYCODE_BACK && event.getAction() == KeyEvent.ACTION_UP) {
+                        return true;
+                    }
+                    return false;
+                }
+            });
 
             ms_ini=1;
             SaveMesIni();

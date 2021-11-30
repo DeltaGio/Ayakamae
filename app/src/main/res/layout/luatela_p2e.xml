@@ -172,7 +172,7 @@
                 android:layout_marginBottom="10dp"
                 android:fontFamily="sans-serif-medium"
                 android:lineSpacingExtra="8sp"
-                android:text="     A lua brilha por refletir a luz do Sol. Portanto, sua parte iluminada indica, ainda, a direção em que se encontra o Sol."
+                android:text="      A lua brilha por refletir a luz do Sol. Portanto, sua parte iluminada indica, ainda, a direção em que se encontra o Sol."
                 android:textAlignment="viewStart"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp" />
