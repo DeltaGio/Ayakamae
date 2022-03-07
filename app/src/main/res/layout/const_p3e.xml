@@ -131,6 +131,20 @@
                 android:textColor="#FFFFFF"
                 android:text="     As constelações principais, que fazem parte das representações dos Tukano, obedecem a sequência chamada de ciclo principal de constelações ou simplesmente ciclo principal. Suas representações estão associadas a uma variedade significativa de fenômenos que ocorrem coincidentemente na natureza ou são culturalmente associados a elas. Uma curiosidade é que para os Tukano, as constelações são também seres perigosos e venenosos, por isso não encostam uns nos outros e guardam certa distância entre si no espaço."
                 android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:text="     Caro usuário, as comparações de estações com os períodos descritos pelos Tukano são apenas para compreensão. No entanto, é importante saber que para os Tukano existe apenas dois períodos essenciais: chuvoso e ensolarado (os dois que influenciam diretamente no nível do rio)."
+                android:textSize="16sp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

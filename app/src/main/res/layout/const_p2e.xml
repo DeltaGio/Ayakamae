@@ -114,6 +114,20 @@
                 android:textColor="#FFFFFF"
                 android:text="     A seguir, você verá mais detalhes das constelações do Homem Velho (Verão), do Cervo (Outono), Anta do Norte e Colibri (Primavera) e, por último, a da Ema (Inverno). Todas são relacionadas aos Tupi-Guarani."
                 android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:text="     Caro Usuário, as comparações de estações com os períodos descritos pelos Tupi-Guarani são apenas para compreensão. No entanto, é importante saber que a Primavera e Outono tem pouco significado para os Guarani quanto o Inverno e Verão."
+                android:textSize="16sp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
